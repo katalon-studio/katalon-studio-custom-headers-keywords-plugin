@@ -14,6 +14,9 @@ Katalon Studio plugin to enable setting custom headers in web requests.
 
 1. Install the plugin as described above.
 2. Use the plugin method openBrowserWithCustomHeaders() in your test case to open a browser with custom headers.
+   1. Headers are specified as a map of key-value pairs.
+   2. Headers can include any valid HTTP headers, including User-Agent, Accept-Language, etc. It will replace existing headers with the same key.
+   3. The method updates the active WebDriver instance that is used with WebUI keywords.
 3. Proceed to use WebUI keywords as usual.
 
 ```groovy
@@ -44,3 +47,11 @@ WebUI.delay(5)
 
 WebUI.closeBrowser()
 ```
+
+**Limitations**
+---
+
+1. The plugin requires the ability to install unbundled plugins into Chrome. This may not be possible in some environments. This will be fixed in a future release of Katalon Studio.
+2. The plugin currently only works with the Chrome browser. This will be fixed in a future release of the plugin.
+3. The plugin currently overrides some other WebUI functionality including Smart Wait and Smart Locators. This will be fixed in a future release of the plugin.
+4. The plugin does not currently show up as an option in Manual mode. This will be fixed in a future release of the plugin.
