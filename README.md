@@ -54,4 +54,4 @@ WebUI.closeBrowser()
 1. The plugin requires the ability to install unbundled plugins into Chrome. This may not be possible in some environments. This will be fixed in a future release of Katalon Studio.
 2. The plugin currently only works with the Chrome browser. This will be fixed in a future release of the plugin.
 3. The plugin currently overrides some other WebUI functionality including Smart Wait and Smart Locators. This will be fixed in a future release of the plugin.
-4. The plugin does not currently show up as an option in Manual mode. This will be fixed in a future release of the plugin.
+4. ~~The plugin does not currently show up as an option in Manual mode. This will be fixed in a future release of the plugin.~~
