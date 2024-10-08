@@ -47,7 +47,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CustomKeywords.'com.katalon.keywords.CustomWebDriver.openBrowserWithHeaders'([('foo') : 'bar', ('user-agent') : 'MyCustomAgent'])
+CustomKeywords.'com.katalon.plugin.keyword.CustomWebDriver.openBrowserWithHeaders'([('foo') : 'bar', ('user-agent') : 'MyCustomAgent'])
 
 WebUI.navigateToUrl('https://httpbin.org/headers')
 
