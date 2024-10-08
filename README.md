@@ -5,9 +5,17 @@ Katalon Studio plugin to enable setting custom headers in web requests.
 **Installation Options**
 ---
 
-1. Download the plugin jar file from the [latest release](https://github.com/katalon-studio/katalon-studio-custom-headers-keywords-plugin/releases) and place it in the Plugins directory of your Katalon Studio installation.
-2. Reload the plugins in Katalon Studio by selecting `Plugin > Reload Plugins` from the main menu.
-3. You should see the plugin listed in the resulting dialog.
+1. Download the plugin jar file from the [latest release](https://github.com/katalon-studio/katalon-studio-custom-headers-keywords-plugin/releases) and place it in the Plugins directory of your Katalon Studio installation:
+
+![Tests Explorer with Plugins expanded and showing JAR](images/test_explorer.png)
+
+2. Reload the plugins in Katalon Studio by selecting `Plugin > Reload Plugins` from the main menu:
+
+![Reload Plugins menu item](images/reload_plugins.png)
+
+3. You should see the plugin listed in the resulting dialog:
+
+![Plugins dialog with Custom Headers plugin listed](images/plugins_dialog.png)
 
 **Usage**
 ---
